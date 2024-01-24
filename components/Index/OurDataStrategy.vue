@@ -1,10 +1,10 @@
 <template>
   <div class="why-choos-lg pad-tb deep-dark">
     <div class="container">
+      <h2 class="mb20">More on our <span class="text-second text-bold">Data Strategy</span></h2>
       <div class="row">
         <div class="col-lg-6">
           <div class="common-heading text-l">
-            <h2 class="mb20">More on our <span class="text-second text-bold">Data Strategy</span></h2>
             <div class="itm-media-object mt40 tilt-3d">
               <div class="media">
                 <div class="img-ab- base" data-tilt data-tilt-max="20" data-tilt-speed="1000">
