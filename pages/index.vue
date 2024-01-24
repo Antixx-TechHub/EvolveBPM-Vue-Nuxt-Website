@@ -7,7 +7,7 @@
         <FunFact />
         <OurProducts />
         <DeliveryChannels />
-
+        <OurMediaAssets />
         <OurDataStrategy />
         <CertificateAwards />
         <InsightsCTA />
@@ -24,7 +24,7 @@ import OurServices from '../components/Index/OurServices'
 import FunFact from '../components/Index/FunFact'
 import OurProducts from '../components/Index/OurProducts'
 import DeliveryChannels from '../components/Index/DeliveryChannels'
-
+import OurMediaAssets from '../components/Index/OurMediaAssets'
 import OurDataStrategy from '../components/Index/OurDataStrategy'
 import CertificateAwards from '../components/Index/CertificateAwards'
 import OfficeLocation from '../components/Index/OfficeLocation'
@@ -42,7 +42,7 @@ export default {
         FunFact,
         OurProducts,
         DeliveryChannels,
-
+        OurMediaAssets,
         OurDataStrategy,
         CertificateAwards,
         InsightsCTA,
