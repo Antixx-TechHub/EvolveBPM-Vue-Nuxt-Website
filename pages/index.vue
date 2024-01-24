@@ -32,7 +32,6 @@ import InsightsCTA from '../components/Index/InsightsCTA'
 import Footer from '../layouts/Footer'
 import axios from 'axios';
 
-
 export default {
     components: {
         Navbar,
