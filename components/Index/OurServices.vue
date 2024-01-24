@@ -1,5 +1,5 @@
 <template>
-    <section class="service-section service-2 pad-tb">
+    <div class="service-section service-2 pt100">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
@@ -9,7 +9,7 @@
                     </div>
                 </div>
             </div>
-            <section class="blog-page pad-tb pt-4">
+            <div class="blog-page pad-tb pt-4">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-4 mt-4">
@@ -122,9 +122,9 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
         </div>
-    </section>
+    </div>
 </template>
         
 <script>

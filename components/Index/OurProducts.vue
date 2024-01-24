@@ -1,5 +1,5 @@
 <template>
-    <div class="service-section service-2 pad-tb">
+    <div class="service-section service-2 pt100">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
