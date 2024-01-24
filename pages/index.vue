@@ -1,62 +1,26 @@
 <template>
     <div>
         <Navbar />
-        <HomeMainBanner />
-        <WeveDoneLotsOfWork />
-        <GlobalSalesTeam />
-        <OurCaseStudies />
-        <Certificates />
-        <OurMediaAssets />
-        <LetsGetToWork />
-        <Footer />
-        <Copyright />
+        <!-- <HomeMainBanner /> -->
+
+        <!-- <Footer /> -->
     </div>
 </template>
 
 <script>
-import Navbar from '../layouts/NavbarStyleTwo'
-import HomeMainBanner from '../components/Index/HomeMainBanner'
-import OurFeaturedServices from '../components/Index/OurFeaturedServices'
-import GlobalSalesTeam from '../components/Index/GlobalSalesTeam'
-import OurCaseStudies from '../components/Index/OurCaseStudies'
-import Certificates from '../components/Index/Certificates'
-import AmazingBusinessSolution from '../components/Common/AmazingBusinessSolution'
-import WeAlwaysTryToUnderstand from '../components/Common/WeAlwaysTryToUnderstand'
-import WeveDoneLotsOfWork from '../components/Common/WeveDoneLotsOfWork'
-import MeetOurAwesomeTeam from '../components/Common/MeetOurAwesomeTeam'
-import GetBetterSolution from '../components/Common/GetBetterSolution'
-import SomeLovelyFeedback from '../components/Common/SomeLovelyFeedback'
-import ChooseYourBestPlan from '../components/Common/ChooseYourBestPlan'
-import GetOnlyNewUpdate from '../components/Common/GetOnlyNewUpdate'
-import OurLatestNews from '../components/Common/OurLatestNews'
-import OurMediaAssets from '../components/Index/OurMediaAssets'
-import LetsGetToWork from '../components/Common/LetsGetToWork'
-import Footer from '../layouts/Footer'
-import Copyright from '../layouts/Copyright'
+import Navbar from '../layouts/Navbar'
+// import HomeMainBanner from '../components/Index/HomeMainBanner'
+
+// import Footer from '../layouts/Footer'
 import axios from 'axios';
 
 
 export default {
     components: {
         Navbar,
-        HomeMainBanner,
-        OurFeaturedServices,
-        GlobalSalesTeam,
-        OurCaseStudies,
-        Certificates,
-        AmazingBusinessSolution,
-        WeAlwaysTryToUnderstand,
-        WeveDoneLotsOfWork,
-        MeetOurAwesomeTeam,
-        GetBetterSolution,
-        SomeLovelyFeedback,
-        ChooseYourBestPlan,
-        GetOnlyNewUpdate,
-        OurLatestNews,
-        OurMediaAssets,
-        LetsGetToWork,
-        Footer,
-        Copyright,
+        // HomeMainBanner,
+
+        // Footer,
     },
     data() {
         return {

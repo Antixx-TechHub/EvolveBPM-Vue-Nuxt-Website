@@ -154,14 +154,7 @@
                                     </div>
                                 </div>
                             </div>
-
-                            <div class="burger-menu" v-b-modal.modal-1>
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </div>
-                            <SidebarModal />
-                        </div>
+</div>
                     </b-collapse>
                 </nav>
             </div>
@@ -170,12 +163,8 @@
 </template>
 
 <script>
-import SidebarModal from '../layouts/SidebarModal'
 export default {
     name: 'Navbar',
-    components: {
-        SidebarModal
-    },
     data() {
         return {
             isSticky: false,

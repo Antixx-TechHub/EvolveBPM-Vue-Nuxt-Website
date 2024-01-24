@@ -26,13 +26,17 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    "~/assets/css/animate.min.css",
+    // "~/assets/css/all.min.css",
     "~/assets/css/bootstrap.min.css",
-    "~/assets/css/boxicons.min.css",
-    "~/assets/css/fontawesome.min.css",
-    "~/assets/css/flaticon.css",
-    "~/assets/css/style.css",
+    // "~/assets/css/coming-soon.css",
+    "~/assets/css/darkmode.css",
+    "~/assets/css/demo-css.css",
+    "~/assets/css/gdpr-cookie.css",
+    "~/assets/css/ihavecookie.css",
+    // "~/assets/css/plugin.min.css",
     "~/assets/css/responsive.css",
+    "~/assets/css/style.css",
+    "~/assets/css/swiper.min.css",
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
