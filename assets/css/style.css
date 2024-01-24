@@ -1980,7 +1980,7 @@ background-image: linear-gradient(45deg,#ff0048 0%,#ff3870 50%,#c300c3 100%) !im
 .-content-sec .title-hero-oth p {font-size: 18px; color: #6a6a8e;margin: 0 0 0 20px;text-transform: capitalize;}
 .dg-btn{background-color: transparent; border: 1px solid #fff;}
 .dg-bg{background-color: #202020;}
-.dg-bg--1 {  background-color: #111111;}
+.dg-bg--1 {  background-color: #165EC9;}
 .dg-bg--2 {  background-color: #171717;}
 .dg-clients-section .opl ul li {display: inline-block; padding: 30px 0 0 0;}
 .dg-clients-section .opl ul li p {
@@ -2108,8 +2108,8 @@ border-radius: 0px 0px 8px 8px;}
 display: block;
 padding: 0 0 4px 0;
 color: #6a6a8e;}
-.dark-footer,.dark-footer .footer-address-list li a,.dark-footer .footer-address-list li > span,.dark-footer .footer-address-list li p, .dark-footer .ff-social-icons a, .dark-footer .footer-link-- li a{color: #a2a2a2;}
-.dark-footer h5{color:#e6e6e6;}
+.dark-footer,.dark-footer .footer-address-list li a,.dark-footer .footer-address-list li > span,.dark-footer .footer-address-list li p, .dark-footer .ff-social-icons a, .dark-footer .footer-link-- li a{color: #FFFFFF;}
+.dark-footer h5{color:#ffffff;}
 .dg2-main .footer-address-list li a {color: #bdbfca;}
 .footer-copyrights- a{color: #bdbfca;}
 .footer-link--{text-align: right;}
