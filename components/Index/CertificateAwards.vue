@@ -1,16 +1,14 @@
 <template>
-    <!-- Start Clients -->
-    <section class="clients-section pad-tb">
+    <div class="clients-section pad-tb">
         <div class="container">
-            <div class="row justify-content-center">
+            <div class="row justify-content">
                 <div class="col-lg-8">
-                    <div class="common-heading">
-                        <span>Our happy customers</span>
-                        <h2>Some of our Clients</h2>
+                    <div class="common-heading text-l">
+                        <h2 class="mb-4">Certifications</h2>
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row pb50 pt20">
                 <div class="col-lg-12">
                     <div class="opl">
                         <ul class="list-unstyled d-flex justify-content-between">
@@ -38,15 +36,15 @@
                     </div>
                 </div>
             </div>
-            <div class="row justify-content-center">
+
+            <div class="row justify-content">
                 <div class="col-lg-8">
-                    <div class="common-heading">
-                        <span>Our happy customers</span>
-                        <h2>Some of our Clients</h2>
+                    <div class="common-heading text-l">
+                        <h2 class="mb-4">Awards</h2>
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row pt20">
                 <div class="col-lg-12">
                     <div class="opl">
                         <ul class="list-unstyled d-flex justify-content-between">
@@ -75,8 +73,7 @@
                 </div>
             </div>
         </div>
-</section>
-<!-- End Clients -->
+    </div>
 </template>
     
 <script>
