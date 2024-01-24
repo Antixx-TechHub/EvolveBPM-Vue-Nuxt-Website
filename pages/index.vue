@@ -3,14 +3,16 @@
         <Navbar />
         <HomeMainBanner />
 
+        <OfficeLocation />
         <Footer />
     </div>
 </template>
 
 <script>
 import Navbar from '../layouts/Navbar'
-import HomeMainBanner from '../components/Index/HomeMainBanner'
 
+import HomeMainBanner from '../components/Index/HomeMainBanner'
+import OfficeLocation from '../components/Index/OfficeLocation'
 import Footer from '../layouts/Footer'
 import axios from 'axios';
 
@@ -20,6 +22,7 @@ export default {
         Navbar,
         HomeMainBanner,
 
+        OfficeLocation,
         Footer,
     },
     data() {
