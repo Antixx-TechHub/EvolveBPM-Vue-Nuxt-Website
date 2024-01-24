@@ -2082,8 +2082,8 @@ border-radius: 100px;
 padding: 10px 15px;
 margin: 0 20px;
 position: absolute;
-bottom: -18px;
-right: 0;
+bottom: 20px;
+/* right: 0; */
 left: 0;
 justify-content: space-between;
 display: flex;}
@@ -2099,7 +2099,7 @@ color: #6a6a8e;
 display: inline-block;
 padding: 0 10px 0 0;}
 .blog-content-tt{
-padding: 45px 25px 25px;
+padding: 30px 25px 25px;
 border: 1px solid #ececec;
 border-top: 0;
 border-radius: 0px 0px 8px 8px;}
