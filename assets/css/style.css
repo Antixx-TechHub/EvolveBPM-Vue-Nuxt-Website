@@ -2238,10 +2238,11 @@ color: transparent;}
 .funfct {
 box-shadow: 0 11px 20px rgb(123 149 162 / 15%);
 line-height: 26px;
-padding: 30px;
+padding: 15px;
+height: 230px;
 border-radius: 8px 8px 8px 40px;
 margin-top: 30px; position: relative; text-align: center; }
-.funfct p{font-weight: 600; color: #ffffff;}
+.funfct p{font-weight: 500; font-size: 14px; line-height: 20px; color: #ffffff;}
 .funfct img{width: 65px; margin: 0 auto 15px; display: block;}
 .funfct .services-cuntr{ display: inline-block; font-weight: 900; font-size: 30px; color: #ffffff; padding: 15px 0; }
 .about-sec-app{
