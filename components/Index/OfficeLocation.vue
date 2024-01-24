@@ -14,7 +14,7 @@
             <div class="col-lg-4 col-sm-6 shape-loc wow fadeIn" data-wow-delay=".2s">
                 <div class="office-card hoshd">
                     <div class="landscp">
-                        <img src="images/location/india-img.png" alt="location" class="img-fluid" />
+                        <img src="~/assets/images/location/skyline-img-three.png" alt="location" class="img-fluid" />
                     </div>
                     <div class="info-text-div">
                         <h4>India</h4>
@@ -32,7 +32,7 @@
             <div class="col-lg-4 col-sm-6 shape-loc wow fadeIn" data-wow-delay=".4s">
                 <div class="office-card hoshd">
                     <div class="landscp">
-                        <img src="images/location/italy.png" alt="location" class="img-fluid" />
+                        <img src="~/assets/images/location/skyline-img-two.png" alt="location" class="img-fluid" />
                     </div>
                     <div class="info-text-div">
                         <h4>Italy</h4>
@@ -50,7 +50,7 @@
             <div class="col-lg-4 col-sm-6 shape-loc wow fadeIn" data-wow-delay=".6s">
                 <div class="office-card hoshd">
                     <div class="landscp">
-                        <img src="images/location/paris.png" alt="location" class="img-fluid" />
+                        <img src="~/assets/images/location/skyline-img.png" alt="location" class="img-fluid" />
                     </div>
                     <div class="info-text-div">
                         <h4>Paris</h4>

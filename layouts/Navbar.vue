@@ -7,125 +7,150 @@
                         <img src="~/assets/images/white-logo.png" alt="logo">
                     </NuxtLink>
 
-                    <b-navbar-toggle class="btn-round- btn-br bg-btn3" data-bs-toggle="offcanvas"
-                        target="navbarSupportedContent">
-                        <i class="fas fa-qrcode"></i>
-                    </b-navbar-toggle>
+                    <div>
+                    <div class="menu2" @click="toggleMenu" :class="{ active: isMenuActive }">
+                        <div class='top'></div>
+                        <div class='middle'></div>
+                        <div class='bottom'></div>
 
-                    <b-collapse class="custom-nav" role="navigation" id="navbarSupportedContent" is-nav>
-                        <ul class="nav-list onepge">
-                            <li class="menu-links">
-                                <NuxtLink to="/" class="nav-link">
-                                    Home
-                                </NuxtLink>
-                            </li>
-
-                            <li class="menu-links">
-                                <NuxtLink to="/about-us" class="nav-link">
+                    </div>
+                    <div class="menu-box" :class="{ show: isMenuActive, active: isMenuActive }">
+                        <NuxtLink class="navbar-brand" to="/">
+                            <img src="~/assets/images/logo.png" alt="logo">
+                        </NuxtLink>
+                        <div class="menu2-items">
+                            <div class="itemss">
+                                <NuxtLink to="/about-us">
                                     About Us
                                 </NuxtLink>
-                            </li>
+                            </div>
+                            <div class="itemss">
+                                <NuxtLink to="/contact-us">Contact Us</NuxtLink>
+                            </div>
 
-                            <li class="menu-links">
-                                <NuxtLink to="/about-one" class="nav-link">
-                                    Services <i class="fas fa-chevron-down"></i>
-                                </NuxtLink>
-                                <ul class="sub-menu-column">
+                            <details class="accordion">
+                                <summary class="accordion-header">
+                                    <div class="accordion-header-content">
+                                        <!-- <h2 class="accordion-header-content-title">Title ipsum dolor</h2> -->
+                                        <div class="itemss">
+                                            Resources
+                                        </div>
+                                    </div>
+                                </summary>
+                                <div class="accordion-content">
                                     <li>
-                                        <nuxt-link to="/irev" class="nav-link">
+                                        <NuxtLink to="/blogs">Blogs</NuxtLink>
+                                    </li>
+                                    <li>
+                                        <NuxtLink to="/success-stories">Success Stories</NuxtLink>
+                                    </li>
+                                    <li>
+                                        <NuxtLink to="/case-studies">Case Studies</NuxtLink>
+                                    </li>
+                                </div>
+                            </details>
+
+
+
+                            <details class="accordion">
+                                <summary class="accordion-header">
+                                    <div class="accordion-header-content">
+                                        <!-- <h2 class="accordion-header-content-title">Title ipsum dolor</h2> -->
+                                        <div class="itemss">
+                                            Products
+                                        </div>
+                                    </div>
+                                </summary>
+                                <div class="accordion-content">
+                                    <li class="nav-item">
+                                        <NuxtLink to="/irev">iRev</NuxtLink>
+                                    </li>
+                                    <li class="nav-item">
+                                        <NuxtLink to="/idata">iData</NuxtLink>
+                                    </li>
+                                    <li class="nav-item">
+                                        <NuxtLink to="/imedia">iMedia</NuxtLink>
+                                    </li>
+                                </div>
+                            </details>
+
+                            <details class="accordion">
+                                <summary class="accordion-header">
+                                    <div class="accordion-header-content">
+                                        <!-- <h2 class="accordion-header-content-title">Title ipsum dolor</h2> -->
+                                        <div class="itemss">
+                                            Services
+                                        </div>
+                                    </div>
+                                </summary>
+                                <div class="accordion-content">
+                                    <li>
+                                        <nuxt-link to="/irev">
                                             <span> <img src="../assets/img/header-icon/keyword.png" alt=""> </span>
                                             iRev
                                         </nuxt-link>
                                     </li>
                                     <li>
-                                        <nuxt-link to="/iintel" class="nav-link">
+                                        <nuxt-link to="/iintel">
                                             <span> <img src="../assets/img/header-icon/audit.png" alt=""> </span>
                                             iIntel
                                         </nuxt-link>
                                     </li>
                                     <li>
-                                        <nuxt-link to="/imedia" class="nav-link">
+                                        <nuxt-link to="/imedia">
                                             <span> <img src="../assets/img/header-icon/building.png" alt=""> </span>
                                             iMedia
                                         </nuxt-link>
                                     </li>
                                     <li>
-                                        <nuxt-link to="/innovator" class="nav-link">
+                                        <nuxt-link to="/innovator">
                                             <span> <img src="../assets/img/header-icon/media.png" alt=""> </span>
                                             Innovator
                                         </nuxt-link>
                                     </li>
                                     <li>
-                                        <nuxt-link to="/techbase" class="nav-link">
+                                        <nuxt-link to="/techbase">
                                             <span> <img src="../assets/img/header-icon/analysis.png" alt=""> </span>
                                             TechBase
                                         </nuxt-link>
                                     </li>
-                                </ul>
-                            </li>
+                                </div>
+                            </details>
 
-                            <li class="menu-links">
-                                <NuxtLink to="/#" class="nav-link">
-                                    Our Products <i class="fas fa-chevron-down"></i>
-                                </NuxtLink>
-                                <ul class="dropdown-menu">
-                                    <li class="nav-item">
-                                        <NuxtLink to="/irev" class="nav-link">iRev</NuxtLink>
-                                    </li>
-                                    <li class="nav-item">
-                                        <NuxtLink to="/idata" class="nav-link">iData</NuxtLink>
-                                    </li>
-                                    <li class="nav-item">
-                                        <NuxtLink to="/imedia" class="nav-link">iMedia</NuxtLink>
-                                    </li>
-                                </ul>
-                            </li>
 
-                            <li class="menu-links">
-                                <NuxtLink to="/#" class="nav-link">
-                                    Company <i class="fas fa-chevron-down"></i>
-                                </NuxtLink>
-                                <ul class="dropdown-menu">
-                                    <li class="nav-item">
-                                        <NuxtLink to="/careers" class="nav-link">Careers</NuxtLink>
+                            <details class="accordion">
+                                <summary class="accordion-header">
+                                    <div class="accordion-header-content">
+                                        <!-- <h2 class="accordion-header-content-title">Title ipsum dolor</h2> -->
+                                        <div class="itemss">
+                                            Company
+                                        </div>
+                                    </div>
+                                </summary>
+                                <div class="accordion-content">
+                                    <li>
+                                        <NuxtLink to="/careers">Careers</NuxtLink>
                                     </li>
-                                    <li class="nav-item">
-                                        <NuxtLink to="/our-team" class="nav-link">Our Team</NuxtLink>
+                                    <li>
+                                        <NuxtLink to="/our-team">Our Team</NuxtLink>
                                     </li>
-                                </ul>
-                            </li>
+                                    <li>
+                                        <NuxtLink to="/team-details">Team Details</NuxtLink>
+                                    </li>
+                                    <li>
+                                        <NuxtLink to="/faqs">FAQ's</NuxtLink>
+                                    </li>
+                                </div>
+                            </details>
+                        </div>
 
-                            <li class="menu-links">
-                                <a href="/resources" class="nav-link">
-                                    Resources<i class="fas fa-chevron-down"></i>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li class="nav-item">
-                                        <NuxtLink to="/blogs" class="nav-link">Blogs</NuxtLink>
-                                    </li>
-                                    <li class="nav-item">
-                                        <NuxtLink to="/sucess-stories" class="nav-link">Sucess Stories</NuxtLink>
-                                    </li>
-                                    <li class="nav-item">
-                                        <NuxtLink to="/case-studies" class="nav-link">Case Studies</NuxtLink>
-                                    </li>
-
-                                </ul>
-                            </li>
-
-                            <li class="menu-links">
-                                <NuxtLink to="/contact-us" class="nav-link">Contact</NuxtLink>
-                            </li>
-
-                            <div class="mobile-menu2">
-                                <ul class="mob-nav2">
-                                    <li><a class="btn-round- trngl btn-br bg-btn btshad-b1" data-bs-toggle="offcanvas"
-                                            href="#offcanvasExample"><i class="fas fa-qrcode"></i></a></li>
-                                    <li class="navm-"> <a class="toggle" href="#"><span></span></a></li>
-                                </ul>
-                            </div>
-                        </ul>
-                    </b-collapse>
+                        <div class="banner-btn solution-video pb-70">
+                            <NuxtLink to="/contact" class="default-btn-one">
+                                Get A Free Trail <i class="fas fa-chevron-right"></i>
+                            </NuxtLink>
+                        </div>
+                    </div>
+                </div>
                 </nav>
             </div>
         </div>
@@ -141,7 +166,12 @@ export default {
     data() {
         return {
             isSticky: false,
-            isSearch: false
+            isSearch: false,
+            items: [
+                { isActive: false },
+                { isActive: false },
+            ],
+            isMenuActive: false,
         }
     },
 
@@ -156,5 +186,24 @@ export default {
             }
         })
     },
+
+    methods: {
+        toggleMenu() {
+            this.isMenuActive = !this.isMenuActive;
+        },
+        toggleDropdown() {
+            this.isDropdownOpen = !this.isDropdownOpen;
+        },
+        handleDropdownItemClick() {
+            // Logic to handle dropdown item click
+            console.log('Dropdown item clicked!');
+            // You can add further logic here
+        },
+        toggleCollapse(index) {
+            this.$set(this.items, index, {
+                isActive: !this.items[index].isActive,
+            });
+        },
+    }
 }
 </script>

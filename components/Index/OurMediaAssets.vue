@@ -32,43 +32,43 @@
                     <div class="clients-logos text-center col-12">
                         <ul class="row text-center clearfix">
                             <li class="col-lg-4 col-md-3 col-sm-4 col-6 wow fadeIn" data-wow-delay=".2s">
-                                <div class="brand-logo"><img src="~/assets/images/logo.png" alt="clients" class="img-fluid">
+                                <div class="brand-logo"><img src="~/assets/images/logofour.png" alt="clients" class="img-fluid">
                                 </div>
                             </li>
                             <li class="col-lg-4 col-md-3 col-sm-4 col-6 wow fadeIn" data-wow-delay=".4s">
-                                <div class="brand-logo"><img src="~/assets/images/logo.png" alt="clients" class="img-fluid">
+                                <div class="brand-logo"><img src="~/assets/images/logofive.png" alt="clients" class="img-fluid">
                                 </div>
                             </li>
                             <li class="col-lg-4 col-md-3 col-sm-4 col-6 wow fadeIn" data-wow-delay="3.6s">
-                                <div class="brand-logo"><img src="~/assets/images/logo.png" alt="clients" class="img-fluid">
+                                <div class="brand-logo"><img src="~/assets/images/logosix.png" alt="clients" class="img-fluid">
                                 </div>
                             </li>
                         </ul>
                         <ul class="row text-center clearfix">
                             <li class="col-lg-4 col-md-3 col-sm-4 col-6 wow fadeIn" data-wow-delay=".2s">
-                                <div class="brand-logo"><img src="~/assets/images/logo.png" alt="clients" class="img-fluid">
+                                <div class="brand-logo"><img src="~/assets/images/logosevn.png" alt="clients" class="img-fluid">
                                 </div>
                             </li>
                             <li class="col-lg-4 col-md-3 col-sm-4 col-6 wow fadeIn" data-wow-delay=".4s">
-                                <div class="brand-logo"><img src="~/assets/images/logo.png" alt="clients" class="img-fluid">
+                                <div class="brand-logo"><img src="~/assets/images/logoeight.png" alt="clients" class="img-fluid">
                                 </div>
                             </li>
                             <li class="col-lg-4 col-md-3 col-sm-4 col-6 wow fadeIn" data-wow-delay="3.6s">
-                                <div class="brand-logo"><img src="~/assets/images/logo.png" alt="clients" class="img-fluid">
+                                <div class="brand-logo"><img src="~/assets/images/logonine.png" alt="clients" class="img-fluid">
                                 </div>
                             </li>
                         </ul>
                         <ul class="row text-center clearfix">
                             <li class="col-lg-4 col-md-3 col-sm-4 col-6 wow fadeIn" data-wow-delay=".2s">
-                                <div class="brand-logo"><img src="~/assets/images/logo.png" alt="clients" class="img-fluid">
+                                <div class="brand-logo"><img src="~/assets/images/logosevn.png" alt="clients" class="img-fluid">
                                 </div>
                             </li>
                             <li class="col-lg-4 col-md-3 col-sm-4 col-6 wow fadeIn" data-wow-delay=".4s">
-                                <div class="brand-logo"><img src="~/assets/images/logo.png" alt="clients" class="img-fluid">
+                                <div class="brand-logo"><img src="~/assets/images/logoeight.png" alt="clients" class="img-fluid">
                                 </div>
                             </li>
                             <li class="col-lg-4 col-md-3 col-sm-4 col-6 wow fadeIn" data-wow-delay="3.6s">
-                                <div class="brand-logo"><img src="~/assets/images/logo.png" alt="clients" class="img-fluid">
+                                <div class="brand-logo"><img src="~/assets/images/logonine.png" alt="clients" class="img-fluid">
                                 </div>
                             </li>
                         </ul>
