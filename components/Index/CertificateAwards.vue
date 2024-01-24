@@ -13,23 +13,23 @@
                     <div class="opl">
                         <ul class="list-unstyled d-flex justify-content-between">
                             <li class="wow fadeIn" data-wow-delay=".2s">
-                                <div class="clients-logo"><img src="images/client/clients-1.png" alt="text"
+                                <div class="clients-logo"><img src="~/assets/images/client/clients-1.png" alt="text"
                                         class="img-fluid" /></div>
                             </li>
                             <li class="wow fadeIn" data-wow-delay=".4s">
-                                <div class="clients-logo"><img src="images/client/clients-2.png" alt="text"
+                                <div class="clients-logo"><img src="~/assets/images/client/clients-2.png" alt="text"
                                         class="img-fluid" /></div>
                             </li>
                             <li class="wow fadeIn" data-wow-delay=".6s">
-                                <div class="clients-logo"><img src="images/client/clients-3.png" alt="text"
+                                <div class="clients-logo"><img src="~/assets/images/client/clients-3.png" alt="text"
                                         class="img-fluid" /></div>
                             </li>
                             <li class="wow fadeIn" data-wow-delay=".8s">
-                                <div class="clients-logo"><img src="images/client/clients-4.png" alt="text"
+                                <div class="clients-logo"><img src="~/assets/images/client/clients-4.png" alt="text"
                                         class="img-fluid" /></div>
                             </li>
                             <li class="wow fadeIn" data-wow-delay="1s">
-                                <div class="clients-logo"><img src="images/client/clients-5.png" alt="text"
+                                <div class="clients-logo"><img src="~/assets/images/client/clients-5.png" alt="text"
                                         class="img-fluid" /></div>
                             </li>
                         </ul>
@@ -49,23 +49,23 @@
                     <div class="opl">
                         <ul class="list-unstyled d-flex justify-content-between">
                             <li class="wow fadeIn" data-wow-delay=".2s">
-                                <div class="clients-logo"><img src="images/client/clients-1.png" alt="text"
+                                <div class="clients-logo"><img src="~/assets/images/client/awd-one.png" alt="text"
                                         class="img-fluid" /></div>
                             </li>
                             <li class="wow fadeIn" data-wow-delay=".4s">
-                                <div class="clients-logo"><img src="images/client/clients-2.png" alt="text"
+                                <div class="clients-logo"><img src="~/assets/images/client/awd-2.png" alt="text"
                                         class="img-fluid" /></div>
                             </li>
                             <li class="wow fadeIn" data-wow-delay=".6s">
-                                <div class="clients-logo"><img src="images/client/clients-3.png" alt="text"
+                                <div class="clients-logo"><img src="~/assets/images/client/awd-3.png" alt="text"
                                         class="img-fluid" /></div>
                             </li>
                             <li class="wow fadeIn" data-wow-delay=".8s">
-                                <div class="clients-logo"><img src="images/client/clients-4.png" alt="text"
+                                <div class="clients-logo"><img src="~/assets/images/client/awd-4.png" alt="text"
                                         class="img-fluid" /></div>
                             </li>
                             <li class="wow fadeIn" data-wow-delay="1s">
-                                <div class="clients-logo"><img src="images/client/clients-5.png" alt="text"
+                                <div class="clients-logo"><img src="~/assets/images/client/awd-one.png" alt="text"
                                         class="img-fluid" /></div>
                             </li>
                         </ul>

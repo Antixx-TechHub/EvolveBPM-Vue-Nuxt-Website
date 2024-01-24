@@ -4865,3 +4865,160 @@ a.smllbtnn {
     font-weight: 700;
     font-size: 20px;
   }
+
+  .menu2 {
+    position:fixed;
+    top: 40px;
+    right: 100;
+    cursor:pointer;
+    z-index: 9;
+    transition: right .3s ease-in-out;
+  
+  
+    div {
+        background-color: #63b6e3;
+        width: 35px;
+        height: 5px;
+        margin-bottom: 8px;
+        transition: opacity .5s, background-color .25s, transform .5s ease-in-out;
+    }
+  
+    &.active {
+        right: 30px;
+    }
+  
+    &.active div {
+        background-color: red;
+    }
+  
+    &.active .top {
+        transform: translateY(10px) rotate(-135deg);
+    }
+  
+    &.active .middle {
+        opacity: 0;
+    }
+  
+    &.active .bottom {
+        transform: translateY(-15px) rotate(-45deg);
+    }
+  }
+  .menu-box {
+    position: fixed;
+    top: 0px;
+    right: -300px;
+    background-color: #FFFFFF;
+    /* background: rgb(193, 58, 115, 0.7); */
+    padding: 60px;
+    width: 435px;
+    height: 100%;
+    opacity: 0;
+    z-index: 1;
+    transition: all .35s ease-in-out;
+  
+    &.active {
+        right:0px;
+        opacity: 1;
+    }
+  
+    .menu2-items {
+        position: relative;
+        width: 100%;
+        font-size: 1.5rem;
+    }
+  
+    .menu2-items .itemss {
+        position: relative;
+        cursor: pointer;
+        padding: 6px 81px;
+        transition: all .25s;
+        width: 300px;
+        right: 60px;
+  
+        &:hover {
+            padding: 15px 70px;
+            background-color: #bbdbed;
+        }
+    }
+  }
+  
+  
+  
+  /*  Collapse Menu Css Humburger Menu */
+  
+  details summary {
+    cursor: pointer;
+    /* transition: all 225ms ease-out; */
+    position: relative;
+  }
+  
+  details[open] summary {
+    margin-bottom: 100px;
+    overflow: hidden;
+    position: relative;
+    background: #ccc;
+  }
+  
+  details[open] .accordion-content {
+    padding: 10px;
+    margin-top: -100px;
+    list-style-type: none;
+  }
+  
+  details[open] .accordion-header-content-label {
+    color: black;
+  }
+  
+  /* remove marker */
+  
+  details > summary {
+      list-style: none;
+  }
+  
+  details > summary::-webkit-details-marker {
+      display: none;
+  }
+  
+  /* custom marker */
+  
+  summary::after {
+    content: '+';
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 26px;
+  }
+  
+  details[open] summary::after {
+    content: '-';
+    font-size: 36px;
+  }
+
+/*  Default Button For Humburger Menu */
+  .default-btn-one {
+    border: none;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+    z-index: 1;
+    color: #ffffff;
+    text-transform: uppercase;
+    /* background-color: #ffffff; */
+    background: #FD5257;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 17px;
+    padding-bottom: 13px;
+  }
+
+  .pb-70 {
+    padding-top: 50px;
+    padding-bottom: 70px;
+  }
+  
