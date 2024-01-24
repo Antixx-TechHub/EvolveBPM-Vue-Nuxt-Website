@@ -36,42 +36,42 @@
               <div class="col-lg-4 col-md-6 col-sm-12 col-6">
                 <div class="funfct srcl1">
                   <img src="~/assets/images/icons/startup.png" alt="niwax app development template">
-                  <span class="services-cuntr counter">25</span><span class="services-cuntr">+</span>
+                  <span class="services-cuntr counter">25</span><span class="services-cuntr"> +</span>
                   <p>Global Clients</p>
                 </div>
               </div>
               <div class="col-lg-4 col-md-6 col-sm-12 col-6">
                 <div class="funfct srcl2">
                   <img src="~/assets/images/icons/team.png" alt="niwax app development template">
-                  <span class="services-cuntr counter">1M</span><span class="services-cuntr">+</span>
+                  <span class="services-cuntr counter">1M</span><span class="services-cuntr"> +</span>
                   <p>Leads Generated</p>
                 </div>
               </div>
               <div class="col-lg-4 col-md-6 col-sm-12 col-6">
                 <div class="funfct srcl2">
                   <img src="~/assets/images/icons/mobile.png" alt="niwax app development template">
-                  <span class="services-cuntr counter">2%</span><span class="services-cuntr">+</span>
+                  <span class="services-cuntr counter">2</span><span class="services-cuntr"> %</span>
                   <p>Rejects</p>
                 </div>
               </div>
               <div class="col-lg-4 col-md-6 col-sm-12 col-6">
                 <div class="funfct srcl2">
                   <img src="~/assets/images/icons/computers.png" alt="niwax app development template">
-                  <span class="services-cuntr counter">100</span><span class="services-cuntr">%</span>
+                  <span class="services-cuntr counter">100</span><span class="services-cuntr"> %</span>
                   <p>accuracy of lead delivered</p>
                 </div>
               </div>
               <div class="col-lg-4 col-md-6 col-sm-12 col-6">
                 <div class="funfct srcl5">
                   <img src="~/assets/images/icons/world.png" alt="niwax app development template">
-                  <span class="services-cuntr counter">95%</span><span class="services-cuntr">+</span>
+                  <span class="services-cuntr counter">95</span><span class="services-cuntr"> %</span>
                   <p>Accuracy of lead mobile numbers delivered</p>
                 </div>
               </div>
               <div class="col-lg-4 col-md-6 col-sm-12 col-6">
                 <div class="funfct srcl1">
                   <img src="~/assets/images/icons/deal.png" alt="niwax app development template">
-                  <span class="services-cuntr counter">50%</span><span class="services-cuntr">%</span>
+                  <span class="services-cuntr counter">50</span><span class="services-cuntr">%</span>
                   <p>Reduction in sales cycle</p>
                 </div>
               </div>
