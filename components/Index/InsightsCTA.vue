@@ -11,8 +11,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 d-flex align-items-center">
-                    <a href="#" class="btn-main bg-btn">Request A Demo <i
-                            class="fas fa-chevron-right fa-ani"></i></a>
+                    <a href="#" class="btn-main bg-btn lnk">Request A Demo <i class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></a>
                 </div>
             </div>
         </div>

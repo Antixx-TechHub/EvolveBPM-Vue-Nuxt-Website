@@ -2021,7 +2021,7 @@ font-weight: 900;}
 .itm-media-object .media .img-ab-{
 background: #f5f5f5;
 border-radius: 8px;
-width: 65px;
+width: 45px;
 padding: 10px;}
 .overlay-- .s-block{
 background: #222;
@@ -3838,7 +3838,7 @@ a{text-decoration: auto;}
 .custom-control-label::after, .custom-control-label::before{display: none;}
 .media{display: flex;}
 .media div:first-child { flex-shrink: 0;}
-.itm-media-object .media .img-ab- { height: 65px;  display: flex;  align-items: center;  justify-content: center;}
+.itm-media-object .media .img-ab- { height: 35px;  display: flex;  align-items: center;  justify-content: center;}
 .quote-css {position: absolute;  right: 0;}
 .accordion-button:focus {z-index: 3;  border-color: transparent;  outline: 0;  box-shadow: none;}
 .accordion-button{font-size: 18px; line-height: 28px;}

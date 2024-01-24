@@ -39,8 +39,7 @@
       <div class="-cta-btn mt-5">
         <div class="free-cta-title v-center wow zoomInDown" data-wow-delay="1.1s">
           <p>Let's Start A <span>New Project Together</span></p>
-          <a href="#" class="btn btn-main bg-btn2 lnk">Get A Quote <i class="fas fa-chevron-right fa-icon"></i><span
-              class="circle"></span></a>
+          <a href="#" class="btn-main bg-btn lnk">Request A Demo <i class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></a> 
         </div>
       </div>
     </div>
