@@ -14,11 +14,7 @@
             <div class="col-lg-4 col-sm-6 shape-loc wow fadeIn" data-wow-delay=".2s">
                 <div class="office-card hoshd">
                     <div class="landscp">
-<<<<<<< HEAD
                         <img src="~/assets/images/location/newyork.png" alt="location" class="img-fluid" />
-=======
-                        <img src="~/assets/images/location/skyline-img-three.png" alt="location" class="img-fluid" />
->>>>>>> 63db22d8fd31ff6d2e75833884044a5dc36d4751
                     </div>
                     <div class="info-text-div">
                         <h4>New York</h4>
@@ -35,11 +31,7 @@
             <div class="col-lg-4 col-sm-6 shape-loc wow fadeIn" data-wow-delay=".4s">
                 <div class="office-card hoshd">
                     <div class="landscp">
-<<<<<<< HEAD
                         <img src="~/assets/images/location/uk.png" alt="location" class="img-fluid" />
-=======
-                        <img src="~/assets/images/location/skyline-img-two.png" alt="location" class="img-fluid" />
->>>>>>> 63db22d8fd31ff6d2e75833884044a5dc36d4751
                     </div>
                     <div class="info-text-div">
                         <h4>UK</h4>
@@ -56,11 +48,7 @@
             <div class="col-lg-4 col-sm-6 shape-loc wow fadeIn" data-wow-delay=".6s">
                 <div class="office-card hoshd">
                     <div class="landscp">
-<<<<<<< HEAD
                         <img src="~/assets/images/location/india.png" alt="location" class="img-fluid" />
-=======
-                        <img src="~/assets/images/location/skyline-img.png" alt="location" class="img-fluid" />
->>>>>>> 63db22d8fd31ff6d2e75833884044a5dc36d4751
                     </div>
                     <div class="info-text-div">
                         <h4>India</h4>
