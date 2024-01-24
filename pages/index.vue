@@ -2,7 +2,14 @@
     <div>
         <Navbar />
         <HomeMainBanner />
+        <OurServices />
+        <Statistics />
+        <FunFact />
+        <OurProducts />
+        <DeliveryChannels />
 
+        <OurDataStrategy />
+        <CertificateAwards />
         <InsightsCTA />
         <OfficeLocation />
         <Footer />
@@ -12,8 +19,14 @@
 <script>
 import Navbar from '../layouts/Navbar'
 import HomeMainBanner from '../components/Index/HomeMainBanner'
+import Statistics from '../components/Index/Statistics'
+import OurServices from '../components/Index/OurServices'
+import FunFact from '../components/Index/FunFact'
+import OurProducts from '../components/Index/OurProducts'
+import DeliveryChannels from '../components/Index/DeliveryChannels'
 
-
+import OurDataStrategy from '../components/Index/OurDataStrategy'
+import CertificateAwards from '../components/Index/CertificateAwards'
 import OfficeLocation from '../components/Index/OfficeLocation'
 import InsightsCTA from '../components/Index/InsightsCTA'
 import Footer from '../layouts/Footer'
@@ -24,7 +37,14 @@ export default {
     components: {
         Navbar,
         HomeMainBanner,
+        OurServices,
+        Statistics,
+        FunFact,
+        OurProducts,
+        DeliveryChannels,
 
+        OurDataStrategy,
+        CertificateAwards,
         InsightsCTA,
         OfficeLocation,
         Footer,

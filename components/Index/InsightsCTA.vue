@@ -10,7 +10,8 @@
                     </div>
                 </div>
                 <div class="col-lg-4 d-flex align-items-center">
-                    <a href="case-study.html" class="btn-main bg-btn">View Case Studies <i class="fas fa-chevron-right fa-ani"></i></a>
+                    <a href="case-study.html" class="btn-main bg-btn">View Case Studies <i
+                            class="fas fa-chevron-right fa-ani"></i></a>
                 </div>
             </div>
         </div>
