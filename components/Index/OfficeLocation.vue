@@ -14,16 +14,15 @@
             <div class="col-lg-4 col-sm-6 shape-loc wow fadeIn" data-wow-delay=".2s">
                 <div class="office-card hoshd">
                     <div class="landscp">
-                        <img src="images/location/india-img.png" alt="location" class="img-fluid" />
+                        <img src="~/assets/images/location/newyork.png" alt="location" class="img-fluid" />
                     </div>
                     <div class="info-text-div">
-                        <h4>India</h4>
-                        <h6 class="mt-3">Registered Office</h6>
-                        <p>232, 21st East Street, Kamaraj Nagar, Jaipur, Rajasthan 303030</p>
+                        <h4>New York</h4>
+                        <p>99 Wall Street #3966 New York,<br>NY 10005.</p>
                         <ul class="list-unstyled -address-list mt-3">
-                            <li><a href="mailto:info@businessname.com"><i class="fas fa-envelope"></i>
-                                    info@businessname.com</a></li>
-                            <li><a href="tel:+10000000000"><i class="fas fa-phone-alt"></i> +1 0000 000 000</a></li>
+                            <li><a href="mailto:corporate@evolvebpm.com"><i class="fas fa-envelope"></i>
+                                corporate@evolvebpm.com</a></li>
+                            <li><a href="tel:+10000000000"><i class="fas fa-phone-alt"></i> +91-020-69029999</a></li>
                         </ul>
                     </div>
                 </div>
@@ -32,16 +31,15 @@
             <div class="col-lg-4 col-sm-6 shape-loc wow fadeIn" data-wow-delay=".4s">
                 <div class="office-card hoshd">
                     <div class="landscp">
-                        <img src="images/location/italy.png" alt="location" class="img-fluid" />
+                        <img src="~/assets/images/location/uk.png" alt="location" class="img-fluid" />
                     </div>
                     <div class="info-text-div">
-                        <h4>Italy</h4>
-                        <h6 class="mt-3">Registered Office</h6>
-                        <p>9988 Piazzetta Scalette Rubiani 99, Rome, 84090</p>
+                        <h4>UK</h4>
+                        <p>12 Constance Street, London, England E16 2DQ, GB.</p>
                         <ul class="list-unstyled -address-list mt-3">
-                            <li><a href="mailto:info@businessname.com"><i class="fas fa-envelope"></i>
-                                    info@businessname.com</a></li>
-                            <li><a href="tel:+10000000000"><i class="fas fa-phone-alt"></i> +1 0000 000 000</a></li>
+                            <li><a href="mailto:corporate@evolvebpm.com"><i class="fas fa-envelope"></i>
+                                corporate@evolvebpm.com</a></li>
+                            <li><a href="tel:+10000000000"><i class="fas fa-phone-alt"></i> +91-020-69029999</a></li>
                         </ul>
                     </div>
                 </div>
@@ -50,16 +48,15 @@
             <div class="col-lg-4 col-sm-6 shape-loc wow fadeIn" data-wow-delay=".6s">
                 <div class="office-card hoshd">
                     <div class="landscp">
-                        <img src="images/location/paris.png" alt="location" class="img-fluid" />
+                        <img src="~/assets/images/location/india.png" alt="location" class="img-fluid" />
                     </div>
                     <div class="info-text-div">
-                        <h4>Paris</h4>
-                        <h6 class="mt-3">Registered Office</h6>
-                        <p>603 FA Forest Avenue, New York, USA 10021</p>
+                        <h4>India</h4>
+                        <p>Old Madras Road, 903 Brigade Paramount, Bangalore 560093, IN.</p>
                         <ul class="list-unstyled -address-list mt-3">
-                            <li><a href="mailto:info@businessname.com"><i class="fas fa-envelope"></i>
-                                    info@businessname.com</a></li>
-                            <li><a href="tel:+10000000000"><i class="fas fa-phone-alt"></i> +1 0000 000 000</a></li>
+                            <li><a href="mailto:corporate@evolvebpm.com"><i class="fas fa-envelope"></i>
+                                corporate@evolvebpm.com</a></li>
+                            <li><a href="tel:+10000000000"><i class="fas fa-phone-alt"></i> +91-020-69029999</a></li>
                         </ul>
                     </div>
                 </div>
