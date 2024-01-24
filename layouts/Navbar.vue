@@ -1,37 +1,36 @@
 <template>
     <div :class="['navbar-area', { 'is-sticky': isSticky }]">
-        <div class="bionix-nav">
-            <div class="container">
-                <nav class="navbar navbar-expand-lg navbar-light">
-                    <NuxtLink class="navbar-brand" to="/">
+        <div class="nav-bg-w main-header navfix fixed-top menu-white">
+            <div class="container m-pad">
+                <nav class="menu-header">
+                    <NuxtLink class="dsk-logo nav-brand" to="/">
                         <img src="~/assets/images/logo.png" alt="logo">
                     </NuxtLink>
 
-                    <b-navbar-toggle target="navbarSupportedContent">
-                        <span class="icon-bar top-bar"></span>
-                        <span class="icon-bar middle-bar"></span>
-                        <span class="icon-bar bottom-bar"></span>
+                    <b-navbar-toggle class="btn-round- btn-br bg-btn3" data-bs-toggle="offcanvas"
+                        target="navbarSupportedContent">
+                        <i class="fas fa-qrcode"></i>
                     </b-navbar-toggle>
 
-                    <b-collapse class="collapse navbar-collapse" id="navbarSupportedContent" is-nav>
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
+                    <b-collapse class="custom-nav" role="navigation" id="navbarSupportedContent" is-nav>
+                        <ul class="nav-list onepge">
+                            <li class="menu-links">
                                 <NuxtLink to="/" class="nav-link">
                                     Home
                                 </NuxtLink>
                             </li>
 
-                            <li class="nav-item">
+                            <li class="menu-links">
                                 <NuxtLink to="/about-us" class="nav-link">
                                     About Us
                                 </NuxtLink>
                             </li>
 
-                            <li class="nav-item">
+                            <li class="menu-links">
                                 <NuxtLink to="/about-one" class="nav-link">
                                     Services <i class="fas fa-chevron-down"></i>
                                 </NuxtLink>
-                                <ul class="dropdown-menu">
+                                <ul class="sub-menu-column">
                                     <li>
                                         <nuxt-link to="/irev" class="nav-link">
                                             <span> <img src="../assets/img/header-icon/keyword.png" alt=""> </span>
@@ -65,7 +64,7 @@
                                 </ul>
                             </li>
 
-                            <li class="nav-item">
+                            <li class="menu-links">
                                 <NuxtLink to="/#" class="nav-link">
                                     Our Products <i class="fas fa-chevron-down"></i>
                                 </NuxtLink>
@@ -82,7 +81,7 @@
                                 </ul>
                             </li>
 
-                            <li class="nav-item">
+                            <li class="menu-links">
                                 <NuxtLink to="/#" class="nav-link">
                                     Company <i class="fas fa-chevron-down"></i>
                                 </NuxtLink>
@@ -96,7 +95,7 @@
                                 </ul>
                             </li>
 
-                            <li class="nav-item">
+                            <li class="menu-links">
                                 <a href="/resources" class="nav-link">
                                     Resources<i class="fas fa-chevron-down"></i>
                                 </a>
@@ -114,47 +113,18 @@
                                 </ul>
                             </li>
 
-                            <li class="nav-item">
+                            <li class="menu-links">
                                 <NuxtLink to="/contact-us" class="nav-link">Contact</NuxtLink>
                             </li>
-                        </ul>
 
-                        <div class="others-options">
-                            <!-- <div class="cart-items">
-                                <NuxtLink to="/cart">
-                                    <i class="fas fa-shopping-cart"></i>
-                                    <span>{{ cart.length }}</span>
-                                </NuxtLink>
-                            </div> -->
-
-                            <!-- <div class="option-item">
-                                <div class="search-box" v-on:click="isSearchMethod(isSearch)">
-                                    <i class="search-btn flaticon-search"></i>
-                                </div>
-                            </div> -->
-
-                            <div class="search-overlay" v-if="isSearch">
-                                <div class="d-table">
-                                    <div class="d-table-cell">
-                                        <div class="search-overlay-layer"></div>
-                                        <div class="search-overlay-layer"></div>
-                                        <div class="search-overlay-layer"></div>
-
-                                        <div class="search-overlay-close" v-on:click="isSearchMethod(isSearch)">
-                                            <span class="search-overlay-close-line"></span>
-                                            <span class="search-overlay-close-line"></span>
-                                        </div>
-
-                                        <div class="search-overlay-form">
-                                            <form>
-                                                <input type="text" class="input-search" placeholder="Search here...">
-                                                <button type="submit"><i class="flaticon-search"></i></button>
-                                            </form>
-                                        </div>
-                                    </div>
-                                </div>
+                            <div class="mobile-menu2">
+                                <ul class="mob-nav2">
+                                    <li><a class="btn-round- trngl btn-br bg-btn btshad-b1" data-bs-toggle="offcanvas"
+                                            href="#offcanvasExample"><i class="fas fa-qrcode"></i></a></li>
+                                    <li class="navm-"> <a class="toggle" href="#"><span></span></a></li>
+                                </ul>
                             </div>
-</div>
+                        </ul>
                     </b-collapse>
                 </nav>
             </div>
@@ -165,6 +135,9 @@
 <script>
 export default {
     name: 'Navbar',
+    components: {
+
+    },
     data() {
         return {
             isSticky: false,
@@ -183,17 +156,5 @@ export default {
             }
         })
     },
-
-    computed: {
-        cart() {
-            return this.$store.getters.cart
-        }
-    },
-
-    methods: {
-        isSearchMethod(isSearch) {
-            return this.isSearch = !isSearch
-        }
-    }
 }
 </script>

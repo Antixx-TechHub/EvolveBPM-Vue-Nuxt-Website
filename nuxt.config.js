@@ -26,7 +26,7 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    // "~/assets/css/all.min.css",
+    "~/assets/css/all.min.css",
     "~/assets/css/bootstrap.min.css",
     // "~/assets/css/coming-soon.css",
     "~/assets/css/darkmode.css",

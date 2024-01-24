@@ -1,26 +1,26 @@
 <template>
     <div>
         <Navbar />
-        <!-- <HomeMainBanner /> -->
+        <HomeMainBanner />
 
-        <!-- <Footer /> -->
+        <Footer />
     </div>
 </template>
 
 <script>
 import Navbar from '../layouts/Navbar'
-// import HomeMainBanner from '../components/Index/HomeMainBanner'
+import HomeMainBanner from '../components/Index/HomeMainBanner'
 
-// import Footer from '../layouts/Footer'
+import Footer from '../layouts/Footer'
 import axios from 'axios';
 
 
 export default {
     components: {
         Navbar,
-        // HomeMainBanner,
+        HomeMainBanner,
 
-        // Footer,
+        Footer,
     },
     data() {
         return {
