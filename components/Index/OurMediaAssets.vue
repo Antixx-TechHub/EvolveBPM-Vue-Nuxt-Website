@@ -4,7 +4,9 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="pl-50">
-                        <div class="shape shape-a1"><img src="images/shape/shape-3.svg" alt="shape"></div>
+                        <div class="shape shape-a1">
+                            <!-- <img src="images/shape/shape-3.svg" alt="shape"> -->
+                        </div>
                         <div class="testimonial-card-a tcd owl-carousel">
                             <div class="testimonial-card">
                                 <div class="tt-text">
@@ -15,8 +17,10 @@
                                 </div>
                                 <div class="client-thumbs mt-30">
                                     <div class="media v-center upset">
-                                        <div class="user-image bdr-radius"><img src="images/user-thumb/girl.jpg" alt="girl"
-                                                class="img-fluid rounded-circle" /></div>
+                                        <div class="user-image bdr-radius">
+                                            <img src="images/user-thumb/girl.jpg" alt="girl"
+                                                class="img-fluid rounded-circle" />
+                                            </div>
                                         <div class="media-body user-info v-center">
                                             <h5>Mike Smith</h5>
                                             <p>Founder at Itawa Real eState</p>
