@@ -3,6 +3,7 @@
         <Navbar />
         <HomeMainBanner />
 
+        <InsightsCTA />
         <OfficeLocation />
         <Footer />
     </div>
@@ -10,9 +11,11 @@
 
 <script>
 import Navbar from '../layouts/Navbar'
-
 import HomeMainBanner from '../components/Index/HomeMainBanner'
+
+
 import OfficeLocation from '../components/Index/OfficeLocation'
+import InsightsCTA from '../components/Index/InsightsCTA'
 import Footer from '../layouts/Footer'
 import axios from 'axios';
 
@@ -22,6 +25,7 @@ export default {
         Navbar,
         HomeMainBanner,
 
+        InsightsCTA,
         OfficeLocation,
         Footer,
     },

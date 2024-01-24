@@ -131,7 +131,7 @@
             <div class="row end-footer-">
                 <div class="col-lg-6">
                     <div class="footer-copyrights-">
-                        <p>&copy; {{ currentYear }}. All rights reserved. <a href="https://www.evolvebpm.com/"
+                        <p>&copy; 2024 All rights reserved. <a href="https://www.evolvebpm.com/"
                                 target="_blank">Evolve BPM</a></p>
                     </div>
                 </div>
