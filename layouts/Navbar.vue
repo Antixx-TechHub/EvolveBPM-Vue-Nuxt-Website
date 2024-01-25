@@ -166,16 +166,16 @@
 
 
                             <div class="ff-social-icons">
-                                <a href="javascript:void(0)" target="blank">
+                                <a href="https://www.facebook.com/EvolveBPM/" target="blank">
                                     <img src="~/assets/images/fb.png" alt="logo">
                                 </a>
-                                <a href="javascript:void(0)" target="blank">
+                                <a href="https://www.twitter.com/evolvebpm" target="blank">
                                     <img src="~/assets/images/twitters.png" alt="logo">
                                 </a>
-                                <a href="javascript:void(0)" target="blank">
+                                <a href="https://www.instagram.com/evolvebpm/" target="blank">
                                     <img src="~/assets/images/insta.png" alt="logo">
                                 </a>
-                                <a href="javascript:void(0)" target="blank">
+                                <a href="https://www.linkedin.com/company/evolve-bpm/" target="blank">
                                     <img src="~/assets/images/linkedin.png" alt="logo">
                                 </a>
                                 <a href="javascript:void(0)" target="blank">
