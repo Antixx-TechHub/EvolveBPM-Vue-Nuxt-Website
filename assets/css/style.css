@@ -31,6 +31,7 @@ button:focus {outline: none!important}
 .header-heading .fa-icon{    margin-left: 5px; font-size: 12px; animation: 2s infinite arrowanim; -webkit-animation: 2s infinite arrowanim;}
 .common-heading{padding: 0;    text-align: center;    position: relative;z-index: 10;}
 .common-heading h2 {        margin-bottom: 60px;}
+
 .inner-heading h2 {     margin-bottom: 30px;}
 .v-center{align-self: center; align-items: center;}
 button{ position: relative;    overflow: hidden;}
@@ -584,6 +585,7 @@ height: 400px;
 right: 0;
 left: 0;
 top: 0;
+background-color: FD5257 !important;
 width: 100%;
 background-position: center top;
 background-size: contain;
