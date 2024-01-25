@@ -1014,6 +1014,10 @@ border-radius: 8px 40px 8px 0px;
 -webkit-box-shadow: 0 3.4px 2.7px -30px rgba(0, 0, 0, 0.059), 0 8.2px 8.9px -30px rgba(0, 0, 0, 0.071), 0 25px 40px -30px rgba(0, 0, 0, 0.2);
 box-shadow: 0 3.4px 2.7px -30px rgba(0, 0, 0, 0.059), 0 8.2px 8.9px -30px rgba(0, 0, 0, 0.071), 0 25px 40px -30px rgba(0, 0, 0, 0.2);}
 .-address-list li a{  color: #6a6a8e;}
+.-address-list-one li a {
+    color: #0d0d0e;
+    font-size: 23px;
+}
 .-address-list li a i{  width: 25px;}
 .-address-list li {line-height: 35px;}
 /**scroll to top**/
@@ -2122,7 +2126,7 @@ border-top: 1px solid rgba(237,237,237,0.05);
 margin-top: 70px;
 padding: 35px 0;}
 .ff-social-icons a{
-color: #fff; padding: 0 20px 0 0; font-size: 18px;}
+color: #fff; padding: 0 9px 0 0; font-size: 18px;}
 .video-bg-{background: #000;}
 .full-video {
 position: absolute;
@@ -4927,7 +4931,9 @@ a.smllbtnn {
     .menu2-items {
         position: relative;
         width: 100%;
-        font-size: 1.5rem;
+        /* font-size: 1.5rem; */
+        color: black;
+        font-size: 23px;
     }
   
     .menu2-items .itemss {
@@ -4985,7 +4991,7 @@ a.smllbtnn {
   /* custom marker */
   
   summary::after {
-    content: '+';
+    content: '>';
     position: absolute;
     top: 10px;
     right: 10px;
@@ -5011,15 +5017,15 @@ a.smllbtnn {
     background: #FD5257;
     -webkit-transition: 0.5s;
     transition: 0.5s;
-    border-radius: 5px;
-    font-weight: 600;
+    border-radius: 35px;
+    font-weight: 530;
     font-size: 15px;
     padding-left: 35px;
     padding-right: 35px;
-    padding-top: 17px;
-    padding-bottom: 13px;
+    padding-top: 19px;
+    padding-bottom: 19px;
   }
-  
+
   .pb-70 {
     padding-top: 50px;
     padding-bottom: 70px;
