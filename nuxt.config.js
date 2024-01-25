@@ -28,16 +28,23 @@ export default {
   css: [
     "~/assets/css/all.min.css",
     "~/assets/css/bootstrap.min.css",
-    // "~/assets/css/coming-soon.css",
+    "~/assets/css/coming-soon.css",
     "~/assets/css/darkmode.css",
     "~/assets/css/demo-css.css",
     "~/assets/css/gdpr-cookie.css",
     "~/assets/css/ihavecookie.css",
-    // "~/assets/css/plugin.min.css",
+    "~/assets/css/plugin.min.css",
     "~/assets/css/responsive.css",
     "~/assets/css/style.css",
     "~/assets/css/swiper.min.css",
   ],
+
+  js:[
+    "~/assets/js/bootstrap.bundle.min,js",
+    "~/assets/css/plugin.min.js",
+    "~/assets/css/main.js",
+  ]
+  ,
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
