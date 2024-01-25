@@ -29,9 +29,9 @@ a:hover { text-decoration: none;}
 button:focus {outline: none!important}
 .fa-icon{    margin-left: 5px; font-size: 12px;}
 .header-heading .fa-icon{    margin-left: 5px; font-size: 12px; animation: 2s infinite arrowanim; -webkit-animation: 2s infinite arrowanim;}
-.common-heading{padding: 0;    text-align: center;    position: relative;z-index: 10;}
+.common-heading{padding: 0;   color: #fff; text-align: center;    position: relative;z-index: 10;}
 .common-heading h2 {        margin-bottom: 60px;}
-
+.common-heading h3 {  color: #fff;  font-size: 40px;    margin-bottom: 60px;}
 .inner-heading h2 {     margin-bottom: 30px;}
 .v-center{align-self: center; align-items: center;}
 button{ position: relative;    overflow: hidden;}

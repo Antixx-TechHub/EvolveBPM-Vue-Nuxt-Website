@@ -4,7 +4,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="common-heading">
-                        <h2 class="mb-4">Services Tailored for You</h2>
+                        <h3 class="mb-4">Services Tailored for You</h3>
                         <p>Tailor-made demand generation services, meticulously designed to align with your unique business needs and drive optimal results.</p>
                     </div>
                 </div>

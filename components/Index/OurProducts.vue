@@ -4,7 +4,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="common-heading">
-                        <h2 class="mb-4">Our Products</h2>
+                        <h3 class="mb-4">Our Products</h3>
                     </div>
                 </div>
             </div>
