@@ -4,7 +4,7 @@
             <div class="container m-pad">
                 <nav class="menu-header">
                     <NuxtLink class="dsk-logo nav-brand" to="/">
-                        <img src="~/assets/images/logo.png" class="black-logo" alt="logo">
+                        <!-- <img src="~/assets/images/logo.png" class="black-logo" alt="logo"> -->
                         <img src="~/assets/images/white-logo.png" alt="logo">
                     </NuxtLink>
 
