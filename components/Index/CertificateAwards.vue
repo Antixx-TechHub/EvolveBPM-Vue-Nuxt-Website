@@ -12,26 +12,30 @@
                 <div class="col-lg-12">
                     <div class="opl">
                         <ul class="list-unstyled d-flex justify-content-between">
-                            <li class="wow fadeIn" data-wow-delay=".2s">
-                                <div class="clients-logo"><img src="~/assets/images/client/clients-1.png" alt="text"
-                                        class="img-fluid" /></div>
-                            </li>
-                            <li class="wow fadeIn" data-wow-delay=".4s">
-                                <div class="clients-logo"><img src="~/assets/images/client/clients-2.png" alt="text"
-                                        class="img-fluid" /></div>
-                            </li>
-                            <li class="wow fadeIn" data-wow-delay=".6s">
-                                <div class="clients-logo"><img src="~/assets/images/client/clients-3.png" alt="text"
-                                        class="img-fluid" /></div>
-                            </li>
-                            <li class="wow fadeIn" data-wow-delay=".8s">
-                                <div class="clients-logo"><img src="~/assets/images/client/clients-4.png" alt="text"
-                                        class="img-fluid" /></div>
-                            </li>
-                            <li class="wow fadeIn" data-wow-delay="1s">
-                                <div class="clients-logo"><img src="~/assets/images/client/clients-5.png" alt="text"
-                                        class="img-fluid" /></div>
-                            </li>
+                            <carousel :autoplay="true" :loop="true" :paginationEnabled="false"
+                                :perPageCustom="[[0, 2], [576, 3], [768, 3], [1200, 4]]">
+                                <slide>
+                                    <div class="clients-logo"><img src="~/assets/images/client/clients-1.png" alt="text"
+                                            class="img-fluid" /></div>
+                                </slide>
+
+                                <slide>
+                                    <div class="clients-logo"><img src="~/assets/images/client/clients-2.png" alt="text"
+                                            class="img-fluid" /></div>
+                                </slide>
+                                <slide>
+                                    <div class="clients-logo"><img src="~/assets/images/client/clients-3.png" alt="text"
+                                            class="img-fluid" /></div>
+                                </slide>
+                                <slide>
+                                    <div class="clients-logo"><img src="~/assets/images/client/clients-4.png" alt="text"
+                                            class="img-fluid" /></div>
+                                </slide>
+                                <slide>
+                                    <div class="clients-logo"><img src="~/assets/images/client/clients-5.png" alt="text"
+                                            class="img-fluid" /></div>
+                                </slide>
+                            </carousel>
                         </ul>
                     </div>
                 </div>
@@ -48,26 +52,32 @@
                 <div class="col-lg-12">
                     <div class="opl">
                         <ul class="list-unstyled d-flex justify-content-between">
-                            <li class="wow fadeIn" data-wow-delay=".2s">
-                                <div class="clients-logo"><img src="~/assets/images/client/awd-one.png" alt="text"
-                                        class="img-fluid" /></div>
-                            </li>
-                            <li class="wow fadeIn" data-wow-delay=".4s">
-                                <div class="clients-logo"><img src="~/assets/images/client/awd-2.png" alt="text"
-                                        class="img-fluid" /></div>
-                            </li>
-                            <li class="wow fadeIn" data-wow-delay=".6s">
-                                <div class="clients-logo"><img src="~/assets/images/client/awd-3.png" alt="text"
-                                        class="img-fluid" /></div>
-                            </li>
-                            <li class="wow fadeIn" data-wow-delay=".8s">
-                                <div class="clients-logo"><img src="~/assets/images/client/awd-4.png" alt="text"
-                                        class="img-fluid" /></div>
-                            </li>
-                            <li class="wow fadeIn" data-wow-delay="1s">
-                                <div class="clients-logo"><img src="~/assets/images/client/awd-one.png" alt="text"
-                                        class="img-fluid" /></div>
-                            </li>
+                            <ul class="list-unstyled d-flex justify-content-between">
+                                <carousel :autoplay="true" :loop="true" :paginationEnabled="false"
+                                    :perPageCustom="[[0, 2], [576, 3], [768, 3], [1200, 4]]">
+                                    <slide>
+                                        <div class="clients-logo"><img src="~/assets/images/client/awd-one.png" alt="text"
+                                                class="img-fluid" /></div>
+                                    </slide>
+
+                                    <slide>
+                                        <div class="clients-logo"><img src="~/assets/images/client/awd-2.png" alt="text"
+                                                class="img-fluid" /></div>
+                                    </slide>
+                                    <slide>
+                                        <div class="clients-logo"><img src="~/assets/images/client/awd-3.png" alt="text"
+                                                class="img-fluid" /></div>
+                                    </slide>
+                                    <slide>
+                                        <div class="clients-logo"><img src="~/assets/images/client/awd-4.png" alt="text"
+                                                class="img-fluid" /></div>
+                                    </slide>
+                                    <slide>
+                                        <div class="clients-logo"><img src="~/assets/images/client/awd-one.png" alt="text"
+                                                class="img-fluid" /></div>
+                                    </slide>
+                                </carousel>
+                            </ul>
                         </ul>
                     </div>
                 </div>
@@ -78,7 +88,9 @@
     
 <script>
 
+import axios from 'axios'
+
 export default {
-    name: 'CertificateAwards',
+    name: 'OurClients',
 }
 </script>

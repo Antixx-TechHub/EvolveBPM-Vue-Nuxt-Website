@@ -4883,7 +4883,7 @@ a.smllbtnn {
   
   
     div {
-        background-color: #63b6e3;
+        background-color: #FFFFFF;
         width: 35px;
         height: 5px;
         margin-bottom: 8px;
@@ -5030,3 +5030,54 @@ a.smllbtnn {
     padding-top: 50px;
     padding-bottom: 70px;
   }
+
+  /* Responsive Styles */
+@media (max-width: 767px) {
+    .portfolio-section-nx {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .wptbb {
+        margin-bottom: 20px;
+    }
+
+    .pbwide {
+        padding: 10px;
+    }
+
+    .portfolio-item-info-tt {
+        text-align: center;
+    }
+
+    .portfolio-wide-image {
+        padding: 903px 0px 110px 0px;
+        margin-right: 125px;
+        margin-left: -278px;    }
+
+    .single-image {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .key-points {
+        padding-left: 20px;
+        width: 256px;
+        text-align: justify;   
+
+    }
+
+    .key-points li {
+    padding: 9px 0px 8px 32px;
+    position: relative;
+    line-height: 24px;
+    font-size: 15px;
+    width: 255px;
+    }
+    .menu2 {
+        position: fixed;
+        top: 21px;
+        right: 23px;
+    }
+    
+}

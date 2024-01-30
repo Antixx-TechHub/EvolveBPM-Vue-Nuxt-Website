@@ -21,7 +21,7 @@
                             </NuxtLink>
                             <div class="menu2-items">
                                 <div class="itemss">
-                                      <NuxtLink to="/about-us">Home</NuxtLink>
+                                      <NuxtLink to="/">Home</NuxtLink>
                                 </div>
                                 <div class="itemss">
                                     <NuxtLink to="/about-us">About Us</NuxtLink>
