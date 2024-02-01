@@ -5045,7 +5045,8 @@ a.smllbtnn {
     }
 
     .pbwide {
-        padding: 10px;
+        padding: 0px;
+        padding-bottom: 192px;
     }
 
     .portfolio-item-info-tt {
@@ -5053,9 +5054,15 @@ a.smllbtnn {
     }
 
     .portfolio-wide-image {
-        padding: 903px 0px 110px 0px;
-        margin-right: 125px;
-        margin-left: -278px;    }
+        padding: 942px 0px 221px 0px;
+        margin-right: 103px;
+        margin-left: -10px;
+        position: absolute;
+        margin-top: 19px;
+        left: 0px;
+        right: -109px;
+        margin-bottom: 96px;
+     }
 
     .single-image {
         max-width: 100%;
@@ -5070,11 +5077,11 @@ a.smllbtnn {
     }
 
     .key-points li {
-    padding: 9px 0px 8px 32px;
-    position: relative;
-    line-height: 24px;
-    font-size: 15px;
-    width: 255px;
+        padding: 9px 0px 8px 32px;
+        position: relative;
+        line-height: 29px;
+        font-size: 17px;
+        width: 311px;
     }
     .menu2 {
         position: fixed;
