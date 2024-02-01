@@ -4922,6 +4922,7 @@ a.smllbtnn {
     opacity: 0;
     z-index: 1;
     transition: all .35s ease-in-out;
+    overflow-y: scroll;
   
     &.active {
         right:0px;
