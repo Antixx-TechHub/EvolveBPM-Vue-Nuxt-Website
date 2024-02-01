@@ -130,6 +130,7 @@ box-shadow: 0 4px 6px 0 rgba(12, 0, 46, .08);}
 padding: 0 20px;
 height: 85px;
 z-index: 99999;
+background-color: white;
 border-bottom: 1px solid rgba(255, 255, 255, 0.1);}
 .fa-ani {
 margin-left: 5px;
@@ -4883,7 +4884,7 @@ a.smllbtnn {
   
   
     div {
-        background-color: #FFFFFF;
+        background-color: darkgrey;
         width: 35px;
         height: 5px;
         margin-bottom: 8px;
@@ -5080,5 +5081,36 @@ a.smllbtnn {
         top: 21px;
         right: 23px;
     }
+
+    /* CSS for mobile view */
+@media (max-width: 767px) {
+    .-cta-btn {
+      text-align: center;
+    }
+  
+    .free-cta-title {
+      margin-top: 20px;
+    }
+  
+    .free-cta-title p {
+      font-size: 18px;
+      line-height: 24px;
+    }
+  
+    .btn-main {
+        margin-top: 15px;
+        font-size: 18px;
+        padding: 4px 73px 8px 22px;
+    }
+  
+    .fa-icon {
+      margin-left: 5px;
+    }
+
+    h2 {
+        font-size: 31px;
+    }
+    
+  }
     
 }
