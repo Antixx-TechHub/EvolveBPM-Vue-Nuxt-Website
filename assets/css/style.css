@@ -4935,16 +4935,17 @@ a.smllbtnn {
         width: 100%;
         /* font-size: 1.5rem; */
         color: black;
-        font-size: 23px;
+        font-size: 20px;
     }
   
     .menu2-items .itemss {
         position: relative;
         cursor: pointer;
-        padding: 6px 81px;
+        padding: 8px 64px;
         transition: all .25s;
-        width: 300px;
+        width: 387px;
         right: 60px;
+        border-bottom: 1px solid #e7d9d9;
   
         &:hover {
             padding: 15px 70px;
@@ -4967,13 +4968,14 @@ a.smllbtnn {
     margin-bottom: 100px;
     overflow: hidden;
     position: relative;
-    background: #ccc;
+    /* background: #ccc; */
   }
   
   details[open] .accordion-content {
     padding: 10px;
     margin-top: -100px;
     list-style-type: none;
+    line-height: 33px;
   }
   
   details[open] .accordion-header-content-label {

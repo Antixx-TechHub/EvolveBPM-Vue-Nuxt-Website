@@ -21,10 +21,14 @@
                             </NuxtLink>
                             <div class="menu2-items">
                                 <div class="itemss">
-                                      <NuxtLink to="/">Home</NuxtLink>
+                                    <NuxtLink to="/"> 
+                                        <span style="color:#030303">Home</span>
+                                    </NuxtLink>
                                 </div>
                                 <div class="itemss">
-                                    <NuxtLink to="/about-us">About Us</NuxtLink>
+                                    <NuxtLink to="/"> 
+                                        <span style="color:#030303">About Us</span>
+                                    </NuxtLink>
                                 </div>
 
                                 <details class="accordion">
@@ -40,31 +44,33 @@
                                         <li>
                                             <nuxt-link to="/irev">
                                                 <span> <img src="../assets/img/header-icon/keyword.png" alt=""> </span>
-                                                iRev
+                                                 <span style="color:#030303">iRev</span>
                                             </nuxt-link>
                                         </li>
                                         <li>
                                             <nuxt-link to="/iintel">
                                                 <span> <img src="../assets/img/header-icon/audit.png" alt=""> </span>
-                                                iIntel
+                                                <span style="color:#030303">iIntel</span>
+
+                                                
                                             </nuxt-link>
                                         </li>
                                         <li>
                                             <nuxt-link to="/imedia">
                                                 <span> <img src="../assets/img/header-icon/building.png" alt=""> </span>
-                                                iMedia
+                                                <span style="color:#030303">iMedia</span>
                                             </nuxt-link>
                                         </li>
                                         <li>
                                             <nuxt-link to="/innovator">
                                                 <span> <img src="../assets/img/header-icon/media.png" alt=""> </span>
-                                                Innovator
+                                                <span style="color:#030303">Innovator</span>
                                             </nuxt-link>
                                         </li>
                                         <li>
                                             <nuxt-link to="/techbase">
                                                 <span> <img src="../assets/img/header-icon/analysis.png" alt=""> </span>
-                                                TechBase
+                                                <span style="color:#030303">TechBase</span>
                                             </nuxt-link>
                                         </li>
                                     </div>
@@ -80,14 +86,20 @@
                                         </div>
                                     </summary>
                                     <div class="accordion-content">
-                                        <li class="nav-item">
-                                            <NuxtLink to="/irev">iRev</NuxtLink>
+                                        <li>
+                                            <NuxtLink to="/irev">
+                                                <span style="color:#030303">iRev</span>
+                                            </NuxtLink>
                                         </li>
-                                        <li class="nav-item">
-                                            <NuxtLink to="/idata">iData</NuxtLink>
+                                        <li>
+                                            <NuxtLink to="/idata">
+                                                <span style="color:#030303">iData</span>
+                                            </NuxtLink>
                                         </li>
-                                        <li class="nav-item">
-                                            <NuxtLink to="/imedia">iMedia</NuxtLink>
+                                        <li>
+                                            <NuxtLink to="/imedia">
+                                                <span style="color:#030303">iMedia</span>
+                                            </NuxtLink>
                                         </li>
                                     </div>
                                 </details>
@@ -96,23 +108,32 @@
                                     <summary class="accordion-header">
                                         <div class="accordion-header-content">
                                             <!-- <h2 class="accordion-header-content-title">Title ipsum dolor</h2> -->
-                                            <div class="itemss" >
+                                            <div class="itemss">
                                                 Company
                                             </div>
                                         </div>
                                     </summary>
                                     <div class="accordion-content">
                                         <li>
-                                            <NuxtLink to="/careers">Careers</NuxtLink>
+                                            <NuxtLink to="/careers">
+                                                <span style="color:#030303">careers</span>
+                                            </NuxtLink>
                                         </li>
                                         <li>
-                                            <NuxtLink to="/our-team">Our Team</NuxtLink>
+                                            <NuxtLink to="/our-team">
+                                                
+                                                <span style="color:#030303">Our Team</span>
+                                            </NuxtLink>
                                         </li>
                                         <li>
-                                            <NuxtLink to="/team-details">Team Details</NuxtLink>
+                                            <NuxtLink to="/team-details">                                               
+                                               <span style="color:#030303">Team Details</span>
+                                            </NuxtLink>
                                         </li>
                                         <li>
-                                            <NuxtLink to="/faqs">FAQ's</NuxtLink>
+                                            <NuxtLink to="/faqs">                                               
+                                                <span style="color:#030303">FAQ's</span>
+                                            </NuxtLink>
                                         </li>
                                     </div>
                                 </details>
@@ -128,19 +149,27 @@
                                     </summary>
                                     <div class="accordion-content">
                                         <li>
-                                            <NuxtLink to="/blogs">Blogs</NuxtLink>
+                                            <NuxtLink to="/blogs">
+                                                <span style="color:#030303">Blogs</span>
+                                            </NuxtLink>
                                         </li>
                                         <li>
-                                            <NuxtLink to="/success-stories">Success Stories</NuxtLink>
+                                            <NuxtLink to="/success-stories">
+                                                <span style="color:#030303">Success Stories</span>
+                                            </NuxtLink>
                                         </li>
                                         <li>
-                                            <NuxtLink to="/case-studies">Case Studies</NuxtLink>
+                                            <NuxtLink to="/case-studies">
+                                                <span style="color:#030303">Case Studies</span>
+                                            </NuxtLink>
                                         </li>
                                     </div>
                                 </details>
 
                                 <div class="itemss">
-                                    <NuxtLink to="/contact-us">Contact Us</NuxtLink>
+                                    <NuxtLink to="/"> 
+                                        <span style="color:#030303">Contact Us</span>
+                                    </NuxtLink>
                                 </div>
                             </div>
 
@@ -161,8 +190,8 @@
                                     <li> <a href="tel:+91-020-69029999"><i class="fas fa-phone-alt"></i>
                                             +91-020-69029999</a></li>
                                 </h4>
-                                    <li><a href="mailto:corporate@evolvebpm.com"><i class="fas fa-envelope"></i>
-                                            corporate@evolvebpm.com</a></li>
+                                <li><a href="mailto:corporate@evolvebpm.com"><i class="fas fa-envelope"></i>
+                                        corporate@evolvebpm.com</a></li>
                             </ul>
 
 
